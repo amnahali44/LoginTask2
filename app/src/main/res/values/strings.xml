@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoginTask</string>
+    <string name="text_log_in">Log In</string>
+    <string name="user_name">UserName</string>
+    <string name="password_hint">Password</string>
+    <string name="button_log_in">Log In</string>
+    <string name="stay_signed_in">Stay Signed in</string>
+
+</resources>

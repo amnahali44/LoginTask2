@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="?actionBarSize"
+    android:id="@+id/mainToolBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:textDirection="rtl"
+    tools:targetApi="jelly_bean_mr1">
+
+</androidx.appcompat.widget.Toolbar>
