@@ -61,10 +61,10 @@ public class LoginFragment extends DialogFragment {
 
                 if(userName.getText().toString().equals("admin") && password.getText().toString().equals("12345678")){
                     if (checkFragment.isChecked()) {
-                    ((MainActivity) getActivity()).userName.setText(userName.getText().toString());
-                    editor.putString("key", userName.getText().toString());
-                    editor.apply();
-                    dismiss();
+                      ((MainActivity) getActivity()).userName.setText(userName.getText().toString());
+                      editor.putString("key", userName.getText().toString());
+                      editor.apply();
+                      dismiss();
                     }else{
 
                         ((MainActivity) getActivity()).userName.setText(userName.getText().toString());
