@@ -61,15 +61,12 @@ public class LoginFragment extends DialogFragment {
 
                 if(userName.getText().toString().equals("admin") && password.getText().toString().equals("12345678")){
                     if (checkFragment.isChecked()) {
-                      ((MainActivity) getActivity()).userName.setText(userName.getText().toString());
-                      editor.putString("key", userName.getText().toString());
-                      editor.apply();
-                      dismiss();
-                    }else{
+                        editor.putString("key", userName.getText().toString());
+                        editor.apply();
 
+                    }
                         ((MainActivity) getActivity()).userName.setText(userName.getText().toString());
                         dismiss();
-                    }
 
                 }else{
                     Toast.makeText(view.getContext(),"UserName and/or password are not correct",Toast.LENGTH_LONG).show();
