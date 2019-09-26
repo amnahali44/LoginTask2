@@ -68,6 +68,7 @@ public class LoginFragment extends DialogFragment {
                     }
                         ((MainActivity) getActivity()).userName.setText(userName.getText().toString());
                         dismiss();
+
                 }else{
                     Toast.makeText(view.getContext(),"UserName and/or password are not correct",Toast.LENGTH_LONG).show();
                 }
